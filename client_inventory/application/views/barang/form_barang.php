@@ -133,7 +133,7 @@
         });
 
         var file = $('#file')[0].files[0];
-        dataForm.append
+        dataForm.append('file', file);
         
         $.ajax(link, {
             type: 'POST',
